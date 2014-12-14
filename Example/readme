@@ -1,4 +1,24 @@
 
 Code is here!
 
+Description: Noise Distribution System
+
+Website: HTML5 + CSS3
+Server: Apache + PHP
+Database: MySQL
+
+Functionality:
+
+1>User Register and Login -- Home Page 
+
+2>Show the respective noise level in google map -- Map Page
+3>Show the noise variance diagram in same location by recording date -- Map Page
+
+4>Show the user profile -- User Page
+5>Allow users to locate current geographic venue -- User Page
+6>Allow users to input a noise value of current location -- User Page
+7>Show noise distribution of the neighborhood -- User Page
+
 ...
+
+Updates By Dec 14th, 2014
