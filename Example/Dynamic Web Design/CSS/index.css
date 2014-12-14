@@ -1,0 +1,68 @@
+/* CSS Document */
+/* Here start from the main CSS context */
+body {
+    font-family:Verdana,sans-serif;
+	font-size:0.8em;
+}
+header,footer,section,article {
+    border:1px solid grey;
+    margin:5px;
+	margin-bottom:15px;
+	padding:8px;
+    background-color:white;
+}
+header,footer {
+    color:white;
+	background-color:#444;
+	margin-bottom:5px;
+	text-align:center;
+}
+header img {
+	display:block;
+    float:left;
+}
+section {
+    background-color:#ddd;
+}
+nav ul  {
+    margin:0;padding:0;
+}
+nav ul li {
+    display:inline; 
+	margin:40px;
+}
+
+nav ul li:hover{
+    background-color:yellow;
+}
+
+#myCanvas {
+	border:1px solid #c3c3c3;
+}
+
+#subheader-Canvas {
+	margin:5px;
+	border: 1px solid #c3c3c3;
+	font: "Times New Roman", Times, serif;
+	background-color: #6FF;
+}
+
+#loginName{
+	float: right;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 20px;
+}
+#logout{
+	float: right;
+	font-size: 15px;
+	clear: both;
+	margin-right: 40px;
+}
+
+#account-Info {
+	color: black;
+	float: inherit;
+	margin-left: 200px;
+	font-size: 16px;
+	font-style: oblique;
+}

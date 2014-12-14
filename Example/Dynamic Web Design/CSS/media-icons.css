@@ -1,0 +1,44 @@
+/* CSS Document */
+
+/* Social media icons */
+/* zocial */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+.socialMedia_wrapper{
+	width: 325px;
+	height: 50px;
+	float: right;
+	padding: 5px;
+}
+.icon{
+	display: inline-block;
+	position: relative;
+	color: #bdbdbd;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;
+	float: right;
+}
+.facebook:hover{background-color: #4986c7;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+.youtube:hover{background-color: #a32929;}
+.flickr:hover{background-color: #c257ad;}
+.email:hover{background-color: #d5b120;}
+
+.icon:hover{
+  color: #fff;
+  box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;
+}
+.icon:active{
+  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
+  top: 3px;
+}
